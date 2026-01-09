@@ -13,5 +13,16 @@
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <dependencies>
+        <dependency>
+            <groupId>xmldb</groupId>
+            <artifactId>xmldb-api</artifactId>
+            <version>20021118</version>
+        </dependency>
+        <dependency>
+            <groupId>org.exist-db</groupId>
+            <artifactId>exist-core</artifactId>
+            <version>6.0.1</version>
+        </dependency>
+    </dependencies>
 </project>
